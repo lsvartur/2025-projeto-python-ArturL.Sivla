@@ -30,9 +30,9 @@ Explicação: Esta estrutura `if` é uma estrutura de decisão que avalia se a `
 06. Estruturas de Repetição:
 Arquivo: jogo_da_forca.py
 Linha 57: while erros_cometidos < max_erros:
-Explicação: O laço `while` é uma estrutura de repetição que mantém o bloco de código interno sendo executado *enquanto* a condição (`erros_cometidos < max_erros`) for verdadeira. Ele controla o fluxo principal do jogo, permitindo múltiplas tentativas.
+Explicação: O código `while` é uma estrutura de repetição que mantém o bloco de código interno sendo executado enquanto a condição (`erros_cometidos < max_erros`) for verdadeira. Ele controla o fluxo principal do jogo, permitindo múltiplas tentativas.
 
 07. Sub-rotinas (Funções):
 Arquivo: jogo_da_forca.py
 Linha 9: def jogo_da_forca():
-Explicação: Esta linha define uma sub-rotina (ou função) chamada `jogo_da_forca()`. Ela agrupa um conjunto de instruções para realizar uma tarefa específica (executar o jogo completo), podendo ser chamada em qualquer parte do programa.
+Explicação: Esta linha define uma sub-rotina (ou função) chamada `jogo_da_forca()`. Ela agrupa um conjunto de instruções para realizar uma tarefa específica, podendo ser chamada em qualquer parte do programa.
