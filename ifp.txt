@@ -1,0 +1,38 @@
+Artur Lacerda da Silva
+02/07/2025
+IFPR 2025 - Projeto Python 
+
+01. Tipos de Dados e Variáveis:
+Arquivo: jogo_da_forca.py
+Linha 35: palavra_secreta = escolher_palavra(lista_palavras)
+Explicação: A variável `palavra_secreta` armazena uma string ue representa a palavra a ser adivinhada. Outros tipos de dados usados incluem listas (ex: `lista_palavras`, `letras_erradas`) e inteiros (ex: `erros_cometidos`, `max_erros`).
+
+02. Operadores:
+Arquivo: jogo_da_forca.py
+Linha 59: print(f'Erros restantes: {max_erros - erros_cometidos}')
+Explicação: Esta linha utiliza o operador aritmético de subtração (`-`) para calcular a quantidade de erros restantes. Outros operadores incluem o de igualdade (`==`), de diferente (`!=`), de comparação (`<`, `>=`), de pertinência (`in`, `not in`) e lógicos (`or`, `and`).
+
+03. Saída de Dados:
+Arquivo: jogo_da_forca.py
+Linha 11: print('\n----x----x---- JOGO DA FORCA ----x----x----')
+Explicação: Esta linha utiliza a função `print()` para exibir uma mensagem de texto no console, informando o título do jogo ao usuário.
+
+04. Entrada de Dados:
+Arquivo: jogo_da_forca.py
+Linha 73: letra = input('Digite uma letra (ou "sair" para encerrar): ').upper()
+Explicação: A variável `letra` recebe uma entrada de texto fornecida pelo usuário através da função `input()`, permitindo a interação com o jogo.
+
+05. Estruturas de Decisão:
+Arquivo: jogo_da_forca.py
+Linha 91: if letra in palavra_secreta:
+Explicação: Esta estrutura `if` é uma estrutura de decisão que avalia se a `letra` digitada pelo usuário está presente na `palavra_secreta`. Se a condição for verdadeira, um bloco de código específico é executado (acerto); caso contrário, o `else` correspondente é ativado (erro).
+
+06. Estruturas de Repetição:
+Arquivo: jogo_da_forca.py
+Linha 57: while erros_cometidos < max_erros:
+Explicação: O laço `while` é uma estrutura de repetição que mantém o bloco de código interno sendo executado *enquanto* a condição (`erros_cometidos < max_erros`) for verdadeira. Ele controla o fluxo principal do jogo, permitindo múltiplas tentativas.
+
+07. Sub-rotinas (Funções):
+Arquivo: jogo_da_forca.py
+Linha 9: def jogo_da_forca():
+Explicação: Esta linha define uma sub-rotina (ou função) chamada `jogo_da_forca()`. Ela agrupa um conjunto de instruções para realizar uma tarefa específica (executar o jogo completo), podendo ser chamada em qualquer parte do programa.
